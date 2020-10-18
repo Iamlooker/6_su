@@ -1,4 +1,4 @@
-# Realme 6 Root files
+# Root files
 
 
 1>Unlock Bootloader by .
