@@ -12,17 +12,17 @@
 
 
 Method 1(Recommended)-
--Run the root.bat file
--And press any key to continue to next step
+1. Run the root.bat file
+2. And press any key to continue to next step
 
 
 
 
 Method 2(Manual)-
--adb reboot bootloader
--fastboot flash boot magisk_bxx.img
--fastboot --disable-verity -disable-verification flash vbmeta vbmeta.img
--fastboot reboot
+1. adb reboot bootloader
+2. fastboot flash boot magisk_bxx.img
+3. fastboot --disable-verity -disable-verification flash vbmeta vbmeta.img
+4. fastboot reboot
 
 
 
