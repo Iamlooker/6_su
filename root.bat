@@ -20,6 +20,7 @@ PAUSE
 cls
 :start
 ECHO.
+ECHO Which of the following version matches your phones Version?
 ECHO 1. B41
 ECHO 2. B45
 ECHO 3. B47
