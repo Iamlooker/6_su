@@ -1,7 +1,7 @@
 # Root files
 
 
-1>Unlock Bootloader by .
+1>Unlock Bootloader.
 
 2>Enable Usb Debugging.
 
