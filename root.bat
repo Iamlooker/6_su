@@ -26,6 +26,7 @@ ECHO 2. B45
 ECHO 3. B47
 ECHO 4. B33
 ECHO 5. B49
+ECHO 5. B53
 set choice=
 set /p choice=Select the version.
 if not '%choice%'=='' set choice=%choice:~0,1%
@@ -34,6 +35,7 @@ if '%choice%'=='2' goto 45
 if '%choice%'=='3' goto 47
 if '%choice%'=='4' goto 33
 if '%choice%'=='5' goto 49
+if '%choice%'=='5' goto 53
 ECHO "%choice%" is not valid, try again
 ECHO.
 goto start
@@ -56,6 +58,10 @@ goto end
 :47
 ECHO Flashing Magisk for B49...
 fastboot flash boot magisk_b49.img
+goto end
+:53
+ECHO Flashing Magisk for B53...
+fastboot flash boot magisk_b53.img
 goto end
 :end
 pause
