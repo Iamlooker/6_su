@@ -29,5 +29,3 @@ jobs:
           MERGE_METHOD: "merge"
           MERGE_COMMIT_MESSAGE: "pull-request-description"
           MERGE_REQUIRED_APPROVALS: "0"
-          UPDATE_LABELS: "automerge"
-          UPDATE_METHOD: "merge"
