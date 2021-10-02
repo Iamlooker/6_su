@@ -9,7 +9,9 @@ jobs:
     name: Merge me!
     runs-on: ubuntu-latest
     steps:
-      - name: Merge me!
-        uses: ridedott/merge-me-action@v2
+      - name: Merge Pull Request
+        uses: juliangruber/merge-pull-request-action@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: 1
+          method: squash
